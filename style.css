@@ -1,0 +1,44 @@
+.active1 {
+    background: transparent !important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0px !important;
+}
+
+.bg {
+    background-image: linear-gradient(to bottom, rgb(8 39 229 / 52%), rgb(60 8 47 / 73%)), url("bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.tab {
+    margin-right: 30%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.under::after {
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: blue;
+    display: inline-block;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.under1::after {
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
